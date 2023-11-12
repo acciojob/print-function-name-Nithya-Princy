@@ -1,6 +1,6 @@
-var printFunctionName = function() {
-    console.log(arguments.callee.name);
-};
+function functionName() {
+    alert(arguments.callee.name);
+}
 
-printFunctionName(); // This will print "printFunctionName" to the console
-
+// Call the functionName
+functionName();
